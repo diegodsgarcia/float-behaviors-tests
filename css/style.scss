@@ -1,0 +1,60 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, p, span {
+  font-family: 'Arial';
+}
+
+h1 {
+  font-size: 2.8em;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+span {
+  font-size: 3em;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 250px;
+  background-color: #696969;
+  &__float--left {
+    float: left;
+    margin-right: 20px;
+    background-color: #00ff1f;
+    color: #002bff;
+  }
+  &__float--right {
+    float: right;
+    margin-left: 20px;
+    background-color: #002bff;
+    color: #efff00;
+  }
+}
+
+.wtf {
+  //display: flex;
+  //display: inline;
+  //display: inline-block;
+  //display: table;
+  overflow: hidden;
+  width: 10%;
+  background-color: #FF0000;
+  color: #FFF;
+}
+
