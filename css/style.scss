@@ -3,7 +3,8 @@ html, body {
   padding: 0;
 }
 
-h1, p, span {
+* {
+  box-sizing: border-box;
   font-family: 'Arial';
 }
 
@@ -19,6 +20,13 @@ p {
 
 span {
   font-size: 3em;
+}
+
+section {
+  padding: 20px 0;
+  &:nth-child(2n) {
+    background-color: #ccc;
+  }
 }
 
 .container {
@@ -48,13 +56,49 @@ span {
 }
 
 .wtf {
-  //display: flex;
-  //display: inline;
-  //display: inline-block;
-  //display: table;
-  overflow: hidden;
-  width: 10%;
   background-color: #FF0000;
   color: #FFF;
 }
+
+
+section:nth-child(2) .wtf {
+  display: block;
+}
+
+section:nth-child(3) .wtf {
+  display: inline;
+}
+
+section:nth-child(4) .wtf {
+  display: inline-block;
+}
+
+section:nth-child(5) .wtf {
+  display: inline-block;
+}
+
+section:nth-child(6) .wtf {
+  display: table;
+}
+
+section:nth-child(7) .wtf {
+  display: table;
+}
+
+section:nth-child(8) .wtf {
+  display: flex;
+}
+
+section:nth-child(9) .wtf {
+  display: flex;
+}
+
+section:nth-child(10) .wtf {
+  width: 10%;
+}
+
+section:nth-child(11) .wtf {
+  overflow: hidden;
+}
+
 
