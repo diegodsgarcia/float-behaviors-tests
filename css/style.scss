@@ -24,9 +24,9 @@ span {
 
 section {
   padding: 20px 0;
-  // &:nth-child(2n) {
-  //   background-color: #ccc;
-  // }
+  &:nth-child(2n) {
+    background-color: #ccc;
+  }
 }
 
 .container {
