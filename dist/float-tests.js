@@ -73,7 +73,7 @@ require = (function (modules, cache, entry) {
   return newRequire;
 })({2:[function(require,module,exports) {
 
-},{}],6:[function(require,module,exports) {
+},{}],10:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -95,7 +95,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = window.location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53348' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '54386' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -196,5 +196,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[6,2])
+},{}]},{},[10,2])
 //# sourceMappingURL=/dist/float-tests.map

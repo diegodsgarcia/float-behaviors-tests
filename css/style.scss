@@ -24,9 +24,9 @@ span {
 
 section {
   padding: 20px 0;
-  &:nth-child(2n) {
-    background-color: #ccc;
-  }
+  // &:nth-child(2n) {
+  //   background-color: #ccc;
+  // }
 }
 
 .container {
@@ -100,5 +100,4 @@ section:nth-child(10) .wtf {
 section:nth-child(11) .wtf {
   overflow: hidden;
 }
-
 

@@ -19,8 +19,6 @@ span {
 
 section {
   padding: 20px 0; }
-  section:nth-child(2n) {
-    background-color: #ccc; }
 
 .container {
   max-width: 1000px;
